@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jack's Poetic</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+        .header h1 {
+            color: #333;
+            margin: 0 0 20px 0;
+            font-size: 2.5em;
+        }
+        .nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .nav a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .nav a:hover {
+            color: #333;
+        }
+        .content {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+            text-align: center;
+        }
+        .timestamp {
+            color: #666;
+            font-size: 14px;
+            margin-top: 30px;
+            padding: 15px;
+            background: #f8f8f8;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background: #007acc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #005a9e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Jack's Poetic</h1>
+            <div class="nav">
+                <a href="/">Home</a>
+                <a href="/blog">Blog</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <p>Welcome to my personal website and blog! Here you'll find my thoughts, writings, and creative projects.</p>
+            <a href="/blog" class="cta-button">Read My Blog</a>
+        </div>
+        
+        <div class="timestamp">
+            <strong>Last updated:</strong> <span id="timestamp"></span>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('timestamp').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
