@@ -1,99 +1,249 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack's Poetic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: 'Georgia', serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #f9f9f9;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
+            color: #2d3748;
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            min-height: 100vh;
         }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
         }
-        .header {
+        
+        .hero-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(45, 55, 72, 0.4) 0%, rgba(74, 85, 104, 0.2) 100%);
+            z-index: 2;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 3;
             text-align: center;
-            margin-bottom: 40px;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 20px;
+            color: white;
+            max-width: 800px;
+            padding: 0 2rem;
         }
-        .header h1 {
-            color: #333;
-            margin: 0 0 20px 0;
-            font-size: 2.5em;
+        
+        .hero-title {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 300;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
         }
+        
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 3vw, 1.5rem);
+            font-weight: 400;
+            margin-bottom: 3rem;
+            opacity: 0.95;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
+        
         .nav {
-            margin: 20px 0;
-            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
         }
-        .nav a {
-            color: #666;
+        
+        .nav-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2d3748;
             text-decoration: none;
-            margin: 0 15px;
-            font-size: 16px;
         }
-        .nav a:hover {
-            color: #333;
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
         }
-        .content {
-            font-size: 18px;
-            line-height: 1.8;
-            color: #333;
-            text-align: center;
+        
+        .nav-links a {
+            color: #2d3748;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
         }
-        .timestamp {
-            color: #666;
-            font-size: 14px;
-            margin-top: 30px;
-            padding: 15px;
-            background: #f8f8f8;
-            border-radius: 5px;
-            text-align: center;
+        
+        .nav-links a:hover {
+            color: #667eea;
         }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #667eea;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
         .cta-button {
             display: inline-block;
-            margin-top: 30px;
-            padding: 15px 30px;
-            background: #007acc;
-            color: white;
+            padding: 1rem 2.5rem;
+            background: rgba(255, 255, 255, 0.95);
+            color: #2d3748;
             text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background 0.3s;
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
+        
         .cta-button:hover {
-            background: #005a9e;
+            background: rgba(255, 255, 255, 1);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 3rem 2rem;
+            margin-top: 6rem;
+        }
+        
+        .footer-text {
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+        
+
+        
+        @media (max-width: 768px) {
+            .nav {
+                padding: 1rem;
+            }
+            
+            .nav-links {
+                gap: 1rem;
+            }
+            
+            .hero-content {
+                padding: 0 1rem;
+            }
+            
+            .main-content {
+                padding: 4rem 1rem;
+            }
+            
+            .intro-section {
+                padding: 2rem;
+            }
+            
+            .recent-posts {
+                padding: 2rem;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Welcome to Jack's Poetic</h1>
-            <div class="nav">
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="/" class="nav-logo">jackspoetic</a>
+            <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/blog">Blog</a>
             </div>
         </div>
-        
-        <div class="content">
-            <p>Welcome to my personal website and blog! Here you'll find my thoughts, writings, and creative projects.</p>
-            <a href="/blog" class="cta-button">Read My Blog</a>
+    </nav>
+    
+    <section class="hero">
+        <img src="/static/images/general/25746811-2bfe-4d0f-a502-6c55257bac97.JPG" alt="Person standing on rock overlooking misty mountains" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">jackspoetic</h1>
+            <p class="hero-subtitle">Exploring life through words, thoughts, and creative expression</p>
+            <a href="/blog" class="cta-button">Explore My Writing</a>
         </div>
-        
-        <div class="timestamp">
-            <strong>Last updated:</strong> <span id="timestamp"></span>
-        </div>
-    </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-text">
+            © 2024 jackspoetic. Last updated: <span id="timestamp"></span>
+        </p>
+    </footer>
     
     <script>
         document.getElementById('timestamp').textContent = new Date().toLocaleString();
+        
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 100) {
+                nav.style.background = 'rgba(255, 255, 255, 0.95)';
+            } else {
+                nav.style.background = 'rgba(255, 255, 255, 0.9)';
+            }
+        });
     </script>
 </body>
 </html>

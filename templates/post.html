@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ post.title }} - Jack's Poetic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -10,143 +15,176 @@
         }
         
         body {
-            font-family: 'Georgia', 'Times New Roman', serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #2d3748;
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            min-height: 100vh;
+        }
+        
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 1.5rem 2rem;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .nav-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+        
+        .nav-links a:hover {
+            color: #667eea;
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #667eea;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
         }
         
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 120px 2rem 4rem 2rem;
         }
         
         .header {
             text-align: center;
-            margin-bottom: 50px;
-            padding: 40px 20px;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(10px);
+            margin-bottom: 3rem;
+            padding: 2rem 0;
         }
         
         .header h1 {
-            color: #2c3e50;
-            margin: 0 0 20px 0;
-            font-size: 2.8em;
+            color: #1a1a1a;
+            margin: 0 0 1rem 0;
+            font-size: 3rem;
             font-weight: 300;
             line-height: 1.2;
-            letter-spacing: 1px;
-        }
-        
-        .nav {
-            margin: 20px 0;
-        }
-        
-        .nav a {
-            color: #667eea;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: 500;
-            padding: 10px 20px;
-            border-radius: 25px;
-            transition: all 0.3s ease;
-            background: rgba(102, 126, 234, 0.1);
-        }
-        
-        .nav a:hover {
-            background: #667eea;
-            color: white;
-            transform: translateY(-2px);
+            letter-spacing: -0.02em;
         }
         
         .post-meta {
-            color: #f39c12;
-            font-size: 18px;
-            margin-bottom: 30px;
+            color: #667eea;
+            font-size: 1rem;
+            margin-bottom: 3rem;
             text-align: center;
-            font-style: italic;
-            font-weight: 600;
-            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            font-weight: 500;
         }
         
         .post-content {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            padding: 50px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(10px);
-            font-size: 20px;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 4rem;
+            font-size: 1.1rem;
             line-height: 1.8;
-            color: #2c3e50;
+            color: #2d3748;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
         
         .post-content h1, .post-content h2, .post-content h3 {
-            color: #2c3e50;
-            margin-top: 50px;
-            margin-bottom: 25px;
+            color: #1a1a1a;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
             font-weight: 600;
         }
         
         .post-content h1 { 
-            font-size: 2.2em; 
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 10px;
+            font-size: 2.2rem; 
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
         }
         
         .post-content h2 { 
-            font-size: 1.8em; 
+            font-size: 1.8rem; 
             color: #667eea;
         }
         
         .post-content h3 { 
-            font-size: 1.4em; 
+            font-size: 1.4rem; 
         }
         
         .post-content p {
-            margin-bottom: 25px;
-            text-align: justify;
+            margin-bottom: 1.5rem;
+            text-align: left;
         }
         
         .post-content img {
             max-width: 100%;
             height: auto;
             display: block;
-            margin: 40px auto;
+            margin: 2rem auto;
             border-radius: 12px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
         }
         
         .post-content blockquote {
-            border-left: 5px solid #667eea;
-            margin: 40px 0;
-            padding: 20px 30px;
-            background: rgba(102, 126, 234, 0.05);
+            border-left: 4px solid #667eea;
+            margin: 2rem 0;
+            padding: 1.5rem 2rem;
+            background: #f8f9fa;
             font-style: italic;
-            font-size: 1.1em;
-            border-radius: 0 10px 10px 0;
+            font-size: 1.1rem;
+            border-radius: 0 12px 12px 0;
+            color: #666;
         }
         
         .post-content code {
             background: #f8f9fa;
-            padding: 3px 8px;
+            padding: 0.2rem 0.5rem;
             border-radius: 4px;
-            font-family: 'Monaco', 'Consolas', monospace;
+            font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
             color: #e74c3c;
-            font-size: 0.9em;
+            font-size: 0.9rem;
         }
         
         .post-content pre {
-            background: #2c3e50;
-            color: #ecf0f1;
-            padding: 25px;
-            border-radius: 10px;
+            background: #1a1a1a;
+            color: #ffffff;
+            padding: 1.5rem;
+            border-radius: 12px;
             overflow-x: auto;
-            margin: 30px 0;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            margin: 2rem 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
         
         .post-content pre code {
@@ -156,25 +194,27 @@
         }
         
         .post-content ul, .post-content ol {
-            margin: 25px 0;
-            padding-left: 30px;
+            margin: 1.5rem 0;
+            padding-left: 2rem;
         }
         
         .post-content li {
-            margin-bottom: 10px;
+            margin-bottom: 0.5rem;
         }
         
         .back-link {
-            display: inline-block;
-            margin-top: 40px;
+            display: inline-flex;
+            align-items: center;
+            margin-top: 3rem;
             color: #667eea;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 18px;
-            padding: 15px 30px;
+            font-weight: 500;
+            font-size: 1rem;
+            padding: 0.75rem 1.5rem;
             border: 2px solid #667eea;
-            border-radius: 25px;
+            border-radius: 50px;
             transition: all 0.3s ease;
+            background: transparent;
         }
         
         .back-link:hover {
@@ -183,33 +223,71 @@
             transform: translateY(-2px);
         }
         
+        .back-link::before {
+            content: '←';
+            margin-right: 0.5rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-link:hover::before {
+            transform: translateX(-3px);
+        }
+        
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 3rem 2rem;
+            margin-top: 6rem;
+        }
+        
+        .footer-text {
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+        
         @media (max-width: 768px) {
+            .nav {
+                padding: 1rem;
+            }
+            
+            .nav-links {
+                gap: 1rem;
+            }
+            
             .container {
-                padding: 10px;
+                padding: 100px 1rem 2rem 1rem;
             }
             
             .header h1 {
-                font-size: 2.2em;
+                font-size: 2.2rem;
             }
             
             .post-content {
-                padding: 30px 20px;
-                font-size: 18px;
+                padding: 2rem 1.5rem;
+                font-size: 1rem;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>{{ post.title }}</h1>
-            <div class="nav">
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="/" class="nav-logo">jackspoetic</a>
+            <div class="nav-links">
+                <a href="/">Home</a>
                 <a href="/blog">Blog</a>
             </div>
         </div>
+    </nav>
+    
+    <div class="container">
+        <div class="header">
+            <h1>{{ post.title }}</h1>
+        </div>
         
         <div class="post-meta">
-            By {{ post.author }} • {{ post.date }}
+            {{ post.date }} • By {{ post.author }}
         </div>
         
         <article class="post-content">
@@ -217,8 +295,28 @@
         </article>
         
         <div style="text-align: center;">
-            <a href="/blog" class="back-link">← Back to Blog</a>
+            <a href="/blog" class="back-link">Back to Blog</a>
         </div>
     </div>
+    
+    <footer class="footer">
+        <p class="footer-text">
+            © 2024 jackspoetic. Last updated: <span id="timestamp"></span>
+        </p>
+    </footer>
+    
+    <script>
+        document.getElementById('timestamp').textContent = new Date().toLocaleString();
+        
+        // Navbar background on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 100) {
+                nav.style.background = 'rgba(255, 255, 255, 0.98)';
+            } else {
+                nav.style.background = 'rgba(255, 255, 255, 0.95)';
+            }
+        });
+    </script>
 </body>
 </html> 

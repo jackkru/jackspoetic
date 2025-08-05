@@ -11,7 +11,7 @@ POSTS_DIR = 'posts'
 
 @app.route("/")
 def home():
-    return redirect(url_for('blog'))
+    return render_template("index.html")
 
 @app.route("/blog")
 def blog():
