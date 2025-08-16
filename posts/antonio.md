@@ -2,10 +2,12 @@
 title: Antonio
 date: 2025-08-16
 author: Jack
-excerpt: Add a brief excerpt of your post here.
+excerpt: An 88 year old man named Antonio had a stroke this morning.
 ---
 
 # Antonio
+
+![Antonio Barroso](/static/images/antonio/IMG_3769.jpg)
 
 An 88 year old man named Antonio had a stroke this morning. I am hopeful he will recover, but I wanted to write a few words about Antonio anyways. He’s a man worth writing a few words about, as most men are to the people that care about them. Antonio Barroso is my girlfriend Maria’s maternal grandfather. We get along very well. For some reason I feel confident messing with him. Stealing his hat, rubbing his head, asking him silly questions. And I guess that makes him feel comfortable, because he seems to joke around with me a lot as well. I probably understand about half of the things he says. He frequently speaks in canned phrases – rhymes and sayings that even his family often struggles to explain. Maria’s dad told me at some point when my Spanish was weaker that translating what Antonio says is difficult, because you first have to translate his regional accent (Extremeño) into Spanish, and then Spanish to English. “Adelante como los de Alicante, porque los de Alicante son siempre adelante”. Or “vamos a ver como canto miguel, si canto mal o canto bien”. Often they seem made up on the spot. We were watching a track and field championship yesterday and one of the Spanish women had the last name “Corbacho.” Antonio chimed in “Corbacho con una cara de borracho.” Always with a cheeky grin on his face. All that is a long winded way to say that in spite of our language difficulties, we get along well. He seems to like telling me stories. And based on those stories, I’ve come to learn enough about the man to recount some of his story.
 
