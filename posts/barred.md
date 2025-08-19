@@ -1,3 +1,12 @@
+---
+title: Barred
+date: 2025-08-16
+author: Sam Holden
+excerpt: There are mornings where the day comes to you all at once, like a crash of thunder that shakes the leaves off their trees.
+---
+
+# Barred
+
 There are mornings where the day comes to you all at once, like a crash of thunder that shakes the leaves off their trees. A bolt of lightning like the sky itself is taking a photo of the world. Other days whisper to you in your sleep. The warm arms of the new day reaching out and tapping you gently on the shoulder as the world comes to you unhurriedly.
 This was the latter. I could not tell you when it happened. I could not tell you my first thought. If I did it would be a lie, a figment of an imagination not mine. In bits and pieces, the world came to me. 
 I was and then I was not. And now, again, I am. 
