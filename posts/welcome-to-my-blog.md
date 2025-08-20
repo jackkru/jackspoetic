@@ -1,5 +1,5 @@
 ---
-title: Welcome to Jack's Poetic
+title: Welcome to jackspoetic
 date: 2024-06-26
 author: Jack
 excerpt: A brief introduction to my new blog and what you can expect to find here.
@@ -7,7 +7,7 @@ excerpt: A brief introduction to my new blog and what you can expect to find her
 
 # Welcome
 
-Hello and welcome! The purpose here is twofold - web development and creative writing. I wanted to practice both, so here I am and here you are. 
+Hello and welcome! The purpose here is twofold - web development and creative writing. I wanted to practice both, so here I am and here you are.
 
 ## What to Expect
 
