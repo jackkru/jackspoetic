@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/dark-mode.css">
     <style>
         * {
             margin: 0;
@@ -17,8 +18,8 @@
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #2d3748;
-            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            color: var(--text-primary);
+            background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
             min-height: 100vh;
         }
         
@@ -47,7 +48,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, rgba(45, 55, 72, 0.4) 0%, rgba(74, 85, 104, 0.2) 100%);
+            background: linear-gradient(135deg, var(--overlay-bg) 0%, var(--overlay-secondary) 100%);
             z-index: 2;
         }
         
@@ -87,9 +88,9 @@
             right: 0;
             z-index: 1000;
             padding: 1.5rem 2rem;
-            background: rgba(255, 255, 255, 0.9);
+            background: var(--bg-nav);
             backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid var(--border-color);
             transition: all 0.3s ease;
         }
         
@@ -104,7 +105,7 @@
         .nav-logo {
             font-size: 1.5rem;
             font-weight: 600;
-            color: #2d3748;
+            color: var(--text-nav);
             text-decoration: none;
         }
         
@@ -114,7 +115,7 @@
         }
         
         .nav-links a {
-            color: #2d3748;
+            color: var(--text-nav);
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s ease;
@@ -122,7 +123,7 @@
         }
         
         .nav-links a:hover {
-            color: #667eea;
+            color: var(--link-hover);
         }
         
         .nav-links a::after {
@@ -132,7 +133,7 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: #667eea;
+            background: var(--link-hover);
             transition: width 0.3s ease;
         }
         
@@ -143,8 +144,8 @@
         .cta-button {
             display: inline-block;
             padding: 1rem 2.5rem;
-            background: rgba(255, 255, 255, 0.95);
-            color: #2d3748;
+            background: var(--cta-bg);
+            color: var(--cta-text);
             text-decoration: none;
             border-radius: 50px;
             font-weight: 500;
@@ -152,20 +153,20 @@
             transition: all 0.3s ease;
             border: 2px solid transparent;
             backdrop-filter: blur(20px);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px var(--shadow-color);
         }
         
         .cta-button:hover {
-            background: rgba(255, 255, 255, 1);
+            background: var(--cta-bg);
             transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 30px var(--shadow-hover);
         }
         
 
         
         .footer {
-            background: #2d3748;
-            color: white;
+            background: var(--footer-bg);
+            color: var(--footer-text);
             text-align: center;
             padding: 3rem 2rem;
             margin-top: 6rem;
@@ -212,6 +213,14 @@
             <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/blog">Blog</a>
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24">
+                        <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"/>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24">
+                        <path d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z"/>
+                    </svg>
+                </button>
             </div>
         </div>
     </nav>
@@ -232,18 +241,9 @@
         </p>
     </footer>
     
+    <script src="/static/js/dark-mode.js"></script>
     <script>
         document.getElementById('timestamp').textContent = new Date().toLocaleString();
-        
-        // Navbar background on scroll
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('.nav');
-            if (window.scrollY > 100) {
-                nav.style.background = 'rgba(255, 255, 255, 0.95)';
-            } else {
-                nav.style.background = 'rgba(255, 255, 255, 0.9)';
-            }
-        });
     </script>
 </body>
 </html>

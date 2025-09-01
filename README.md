@@ -17,6 +17,14 @@ I created an ec2 instance.
 I wrote a flask app to run on that ec2 instance. 
 I connected the ec2 instance to the domain name.
 
+## Features
+
+- **Dark Mode**: Toggle between light and dark themes with a button in the navigation
+- **Responsive Design**: Works on desktop and mobile devices
+- **Blog Posts**: Markdown support with syntax highlighting
+- **Image Support**: Upload and display images in posts
+- **Theme Persistence**: Your theme preference is saved in your browser
+
 ## About Me
 
 I'm Jack, and this is where I write about things that interest me - from chess and AI to poetry and personal experiences. It's a space for my thoughts and creative work.

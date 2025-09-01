@@ -29,6 +29,14 @@ def post(slug):
 def static_files(filename):
     return send_from_directory('static', filename)
 
+@app.route('/static/css/<path:filename>')
+def css_files(filename):
+    return send_from_directory('static/css', filename)
+
+@app.route('/static/js/<path:filename>')
+def js_files(filename):
+    return send_from_directory('static/js', filename)
+
 def get_posts():
     """Get all blog posts sorted by date"""
     posts = []
