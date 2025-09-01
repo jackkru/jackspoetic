@@ -1,47 +1,81 @@
 ---
-title: Barred 2
+title: Barred 2 - North
 date: 2025-08-31
 author: Sam Holden
-excerpt: Barred Chapter 2
+excerpt: Chapter 2 of Barred titled "North"
 ---
 
-# Barred 2
+# Barred 2 - North
 
 The city skyline faded so quickly I can hardly remember it. What I do remember might as well be someone elses memories, someone elses visions. Sights and sounds of a stranger.
 
 I do remember the curved cobblestone paths. I remember the buildings stretched up into the foggy sky; the tops of them invisible behind a sheet of cloud and haze. It’s hard to say whether what I remember is true or not. I’ve learned not to trust my memories. So often they are what we want to be true, or what we are told is true. Rarely are they the plain, unadulterated truth. Something far more interesting in our brains. Usually, the truth is a boring, simple reality, amplified by time and space apart. Other things, though. I know to be true. 
+
 I can still see my mother’s face, that much is as clear to me as these words on this page are. Clear and cut. Black and white. I can see her strawberry blonde hair curled messily across her pale face. Her cheeks and her nose dappled with light brown freckles that stretched all the way to her little ears lost in her hair. I remember her blue eyes and the way I felt when she looked at me through them. Important and present. Dad always said her freckles had been darker, her skin tanner and her hair redder before they had moved north. But the gray winters and foggy summer mornings had taken the sun out of them both. The stress of the city had replaced her taut, tan cheeks with shallow grooves running along her face.
+
 I remember the day, the time, when Dad and I came home from the hospital with a box and some paper in our hands. I remember him saying it was going to be a routine follow. Nothing the doctors were concerned about. Nothing Dad and I should be worried about. 
+
 I remember one day passing. And then another. Her side of the bed still made at home. I remember sneaking in my parents room to sniff her pillow to remember how it felt to hug her. I remember a muffled conversation between a doctor and my Dad. He got angry at first, flailing his arms up and down and pointing down the hall where I knew her room was. I remember his expression changing as I came into his view. He softened and held his arms out to me. Solemn in his acceptance. 
+
 I remember the tubes connected to her. I remember her eyes closed as I said goodbye. Here one day and gone just a few days later. I remember the silent car ride through the underbelly of the city. The cavernous roads oozing smoke and steam out from underground. I remember him sitting up in his room crying with the door closed. 
+
 We came home and boxes started stacking up the very next day. Dad sold the house for a fraction of what it was worth.
+
 It’s just a building, and its just money, I remember him saying to me. He was telling me, but he was telling himself. Convincing himself that the only way forward, the only path for he and I was outward. Up and out and away from the place he was convinced took her from us. Took her from him. I never once heard him blame anything. He was not the sort of man to blame anyone but himself for things that happened in his life I loved him for that. I still love him for that. And yet I know, a part of him couldn’t come to terms with how he lost her. He never understood how he did everything imaginable to protect us and still she was taken from underneath him. 
+
 And so, we left for greater pastures. For steeper pastures. For pastures to the north where we had the trees and the streams to keep us hidden and safe. Where catamounts and bears and moose could roam around us and protect us from all the things the world can throw at you in a moments notice. I never had the heart to tell him that no moose or oak or river could have stopped the tumor in her head. But I was just a boy and he was a stubborn husband. So, I listened. 
+
 I said goodbye to my friends at school. I made cookies for the neighbors whose looks of surprise at our news were palpable. They could hardly understand. I packed what little clothes I liked into a single suitcase. My books and trading cards and collectible action figures I stuffed into another, smaller, case. Everything else we dropped at a local donation box. Anything that wouldn’t fit into the bed of his old truck was sold for a bargain or left behind for the new owners. I never much liked our lumpy couch anyway so that wasn’t hard to say goodbye too. The truck had plenty of room for picture frames and Dads’ old records he never listened to. There was an old rocking chair he said mother used to feed me from. 
+
 One night, just a handful after she passed, he held a glass of amber scotch in his hand and told me a story. A story of their first night with me back home after I was born. He told me I wouldn’t stop crying for hell or leather. Dad had been so tired holding me and rocking me. He said how his knees were buckling, and his arms were close to giving out. Mother had remembered seeing an old rocking chair, dilapidated outside in the cold rain. She had come back up with it and Dad had sat down. He laughed at recanting the relief he felt, and more importantly how quickly I had fallen asleep in his arms. The chair was his favorite piece of furniture, his favorite thing in the entire world. Besides me and mother. He was giddy with liquid delight recanting that memory. It was the first time he had smiled since we said goodbye to her. Tears twinkled in his hazel eyes.
+
 With an old rocking chair in the seat beside me in the back, a box of pictures and records, some clothes and boots all tied to hood and bed of our Crosley, we left.
+
 Back then I couldn’t picture what the world outside of the city looked like, what it smelled like. All I had ever known was busy streets filled with honking and yelling back and forth at one another as they boarded streetcars and drove up and down the cobbled streets.
+
 Driving out of town was like dunking my head in the open ocean. Before, I had no clue what was there, or just how vast it could be. How tall the trees could grow or how thick the wilderness could be. Within the first half an hour I could hardly believe that all of this had been out here my whole life. That all this space could exist with no one fighting for it. All I had ever known was a small two bedroom loft above a shop. Fighting for space everywhere. On the street, even in our own home space was a resource. But now we drove, and I could stretch my arms out a mile wide and touch no one. Touch only trees whose names I didn’t know but whose green and brown colors were magnetic. I wanted to reach out and grab every branch, feel every pine needle poke the tips of my soft fingers.
+
 I could feel us being dragged deep and further away from where we started. I asked Dad where we were going and he said somewhere I didn’t recognize. He told me we all needed a fresh start. 
-Every river and streamlet, every mountain top in the distance, every eagle flying above our heads was like being in a dream. And it was all covered in a thick blanket of snow. I had never seen snow like that in the city. It was always pushed out of the way or blew out to sea before I could really get my hands on it. The further we drove up the road, the thicker it grew on the ground, the more the trees sagged over, bending at their trunks.  
+
+Every river and streamlet, every mountain top in the distance, every eagle flying above our heads was like being in a dream. And it was all covered in a thick blanket of snow. I had never seen snow like that in the city. It was always pushed out of the way or blew out to sea before I could really get my hands on it. The further we drove up the road, the thicker it grew on the ground, the more the trees sagged over, bending at their trunks.
+
 I asked him where we were going so much that eventually he stopped answering. I asked him what was going to happen to our old home, which he said wasn’t ours anymore. I didn’t like that someone else would be sleeping in my room, that someone would be sleeping where mom had slept.
+
 Our car struggled mightily as it crested the spine of mountains. Below us I could feel our skinny tires spin out of control for a moment before finding a patch of concrete to catch its shallow rubber lugs on.
+
 We trundled across a wide river with boulders strewn across its banks and bed. At its side the water was frozen, bringing the banks further towards the middle of the river where the dark blue water rushed along. Wisps of white rose from the tips of the water as it crashed against rocks and bends deep in the gorge. 
-We passed towns that sounded like fairytales places. Towns that sounded like faraway places. Tows withs names that sounded like nothing at all. I wanted to stop in every one of them. White steeples rose up and out of hollows between mountains. Sharp peaks of white against the white tops trees with flecks of their green and brown branches hiding underneath. I started to learn to look below the trees into the towns underneath. What the cars looked like, what the people looked like. We had been on the road only a couple hours and I could have been in a different world entirely. 
+
+We passed towns that sounded like fairytales places. Towns that sounded like faraway places. Tows withs names that sounded like nothing at all. I wanted to stop in every one of them. White steeples rose up and out of hollows between mountains. Sharp peaks of white against the white tops trees with flecks of their green and brown branches hiding underneath. I started to learn to look below the trees into the towns underneath. What the cars looked like, what the people looked like. We had been on the road only a couple hours and I could have been in a different world entirely.
+
 The road meandered along with a gushing river to our right. As we rose up more mountains, the river disappeared for a moment and came back into view as we crested and cascaded down the back of the shallow slope. As we drove, we passed a town that sounded like where a king and queen may live and the river turned underneath us and off to the west. From there the car made a slight turn to the north and we stayed straight for a long time. We passed signs for the capital and kept driving. We crossed over more mountains, these ones more inviting and leveled off, older and softer and easier to look up at. We passed one that looked like a horse’s saddle. People would come to tell me it was named after the hump of a camel.  I still think it looks more like a horse’s saddle. 
+
 We left the busy highway, which I was sad to see go, and we trundled off down a small road. The land here was flatter after we crossed over the last spine of mountains. Dad said there was a lake that took hold of most of the land around here. I didn’t see a lake but I spotted seagulls high in the sky. Dad always knew his birds better than anyone so I didn’t think any more about the lake.
+
 The roads got snowier and slicker the further we meandered from the highway. Dad drove slower as the roads turned back and forth. We started following another river. This one flatter and slower. Not in a rush like those carving gorges that we saw before. The water here had nowhere to be and was in no rush to get there. We drove through a small town; one lamplight hung in the center of it. Our tires bumbled across a railroad.
+
 The road ran on and emptied us into snowy fields. Whatever grew here was asleep under a blanket of snow tamped down by a wind blowing  across the valleys in the mountains, we had just crossed over. Summer felt like nothing but a dream here. I closed my eyes and imagined corn and wheat knee high in soft, brown soil. 
-We turned onto a gravel road that rose harshly at first before plateauing onto a tree lined lane. In the rearview mirror I spotted the horses saddle mountain behind it. Watching us all the time. I remember the groan of the car as it stopped by a mailbox hanging limping out over the edge of the road. The wooden pole leaned heavily off to the right under the weight of fresh snow atop its rusted metal box. Dad rolled his window down and a gust of winter air flew in, bringing a flurry of snow with it. He cussed under his breath and wiped away the fresh coat of snow in every crevice of his face. And then he did something I didn’t expect. He turned to me, and he laughed. 
+
+We turned onto a gravel road that rose harshly at first before plateauing onto a tree lined lane. In the rearview mirror I spotted the horses saddle mountain behind it. Watching us all the time. I remember the groan of the car as it stopped by a mailbox hanging limping out over the edge of the road. The wooden pole leaned heavily off to the right under the weight of fresh snow atop its rusted metal box. Dad rolled his window down and a gust of winter air flew in, bringing a flurry of snow with it. He cussed under his breath and wiped away the fresh coat of snow in every crevice of his face. And then he did something I didn’t expect. He turned to me, and he laughed.
+
 On this road, in a place that could have been a different planet, surrounded by more trees than I had seen in my lifetime, covered under heavy snow and protected by gusting winter winds, my dad turned, his face covered in fresh snow and laughed. All I could do was laugh back.
+
 “Well, Freddy,” he started, “no one can say were not having a bit of an adventure, can they?”
+
 I smiled back and said that we certainly were. For the first time since we got in the car, I remember feeling like whatever this new place was. It was as much mine as it was his. I’ll always remember that about my dad, everything was ours together.
+
 From the mailbox he pulled out an old key which he quickly stuffed into his coat pocket and rolled his window up. The car turned onto a road that looked like it had been cleared of branches and trees by hand. The trunks of the trees on either side of the road nearly scraped the sides of our car. Above us I could hear the boxes strapped to the top hitting low hanging branches. I wondered how much snow was on all our stuff. A feeling I would learn to live with. 
+
 The long driveway turned upwards, and it was with this final hurdle that our Crosley finally said enough. The wheels spun out and Dad did his best to turn the car off to the side of the steep hill before it came hauling back down from where we came. 
-“We’ll need to leg it the rest of the way, Freddy,” he said to me. We piled out and unlatched the boxes from the top of the car. They were covered in snow but the things inside were okay. We left the rocking chair in the car, Dad promised we would come back and get it. 
+
+“We’ll need to leg it the rest of the way, Freddy,” he said to me. We piled out and unlatched the boxes from the top of the car. They were covered in snow but the things inside were okay. We left the rocking chair in the car, Dad promised we would come back and get it.
+
 With boxes in hand, we stumbled up the last quarter mile. The Crosley had it right to stop where it did. The road turned into menacing switchbacks and hills. When we turned up the final stretch a house came into view. Its brown panels were faded and green in patches from moss clinging to its side. The roof was invisible against the white sky. It had a back porch that perilously stood, held by two leaning wooden poles. The porch was elevated above a hill that dropped steeply off from the back. We walked the road as it curved up and around to the front of the house. 
+
 Trees stood tall all around us. Dad fumbled for the key in his pocket I remember looking around, looking up at the bare branches of trees. Some grew in groves whose branches and trunks were white as snow. Others were tall; their green needles holding snow along branches bending perilously close to the ground. Above us, more snow fell. I could see little birds darting like bullets across the empty forest. Mostly I remember the sound, that there was none of it. I had spent my earliest years surrounded by the constant sound of cars and people; I even found it comforting. But now there was nothing but my breath and my heart beating in my chest from climbing the hill. Out in the woods, in the late winter afternoon I heard an owl call.
+
 Dad unlocked the front door and it swung open. The wooden floors creaked under us and our footsteps echoed across the posts and beams. Dad placed his box down, wiping a layer of snow from its cardboard lid, and opened it up. Atop everything else was a photo of my mom as I remember her. Not in the hospital bed strewn with wires and tubes. But standing in our old loft, her strawberry blond hair pulled down and across one shoulder, showing her little ears and freckled cheeks.
+
 Dad picked it up and placed it on a small shelf in the entryway.
+
 “So she’ll always be with us,” he said, and placed an arm around me. 
 
