@@ -1,11 +1,11 @@
 ---
-title: Barred 3
+title: Barred 3 - February
 date: 2025-08-31
 author: Sam Holden
-excerpt: Barred Chapter 3
+excerpt: Chapter 3 of Barred titled "February"
 ---
 
-# Barred 3
+# Barred 3 - February
 
 The days are longer now. Frost still clings to trees and snow still falls in unexpected flurries. I wake up to blankets of snow on my head, on the branches of needles and thistles above me. There are fewer things more spectacular, more propitious than the new year turning with a jacket of snow. Welcome and exciting. A fresh coat of paint on a cold, grim world. Now, just a few weeks later when the bear moon shines brightly in the shortening nights, a surprise snow is a reminder that we are still nowhere near. Warm days and long summer breezes reaching across the forest are as far away as they are close. I am starting to forget what the warmth of the sun feels like. 
 
