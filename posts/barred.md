@@ -1,49 +1,85 @@
 ---
-title: Barred
+title: Barred 1 - January
 date: 2025-08-16
 author: Sam Holden
-excerpt: There are mornings where the day comes to you all at once, like a crash of thunder that shakes the leaves off their trees.
+excerpt: Chapter 1 of Barred titled "January"
 ---
 
-# Barred
+# Barred 1 - January
 
 There are mornings where the day comes to you all at once, like a crash of thunder that shakes the leaves off their trees. A bolt of lightning like the sky itself is taking a photo of the world. Other days whisper to you in your sleep. The warm arms of the new day reaching out and tapping you gently on the shoulder as the world comes to you unhurriedly.
+
 This was the latter. I could not tell you when it happened. I could not tell you my first thought. If I did it would be a lie, a figment of an imagination not mine. In bits and pieces, the world came to me. 
+
 I was and then I was not. And now, again, I am. 
+
 I can feel the wind blowing against me. I can feel the tree branch below my feet. It feels rough against my skin. I grab it firmly and feel myself dig in deeper. I can hear branches shutter gently all around, squeaking against others high in the canopy. Pine needles tremble in unison like flocks of birds overhead. The evening light illuminating all of it in a greyish wilderness. 
+
 A shagbark hickory wears snow between peeling strips of brown bark. A white birch clasps fresh flurries to its side on patches of moss growing along its pale trunk. The new flakes come down steadily and at an angle. Knobbles and knots on maples and aspens are painted white along their spindled branches. Through them I see pine saplings bending over from the weight of winter. Their tops graze the mounting snow beneath. A breeze cuts through the empty forest and snow falls in masses down exposing green tinted pine needles spread out wide like wings of an eagle. 
+
 The pond below me looms black. The water’s edge is a virgin bed of white atop thick ice. In the center the water stays still, black against the white snow. A void of color in a world of white. In its reflection I see the house across the small gravel road.
+
 Visions of summer breezes through open windows and low evening beams brightening dusty wood shelves come to me in flashes. Distant memories gone in a moment, as quickly as they came. Carried away on the cutting breeze up in the trees. 
+
 The house looks small now. The faded brown planks that side the house. The slanted metal roof collecting snowflakes. Long, impending icicles hang down. The exposed brick of the bare chimney, moss coated and green against the white expanse. 
+
 The porch is empty and unmoving. It coils around the side of the house. Still and at peace. A rocking chair idly moves back and forth as a frosty winter gust blows through the open sides and out the wraparound porch.
+
 The grain of wood on the banisters are twinkling with a paper-thin sheet of ice. The burls are whirlpools of umber and chestnut. I can hear the wood groan in the frozen twilight as the angled sun loses its grip on another day passed too soon.
+
 The front steps are buried under half a foot of glistening powder. Boot prints on the wooden steps losing their detail with each falling flake. 
 In the windows, I see a faint light behind a curtain drawn in the main room. No smoke rises out of the chimney. The house looks asleep. Hibernating out here under clouds bursting at their silver linings with eager flurries. All I can see under a navy-blue sky that has forgone the shackles of the angled sun and welcomed night’s cold embrace.
+
 A light shines faintly at the end of the walkway connecting the house and the steep driveway. An orb of orange pulsing against the darkening evening. The delayed signal of a faint star shining across the endlessness. 
+
 The lamp illuminates the porch fading from view as the evening shrinks away. The house’s brown paint shining a dull orange and brown against the faint orange light. As though watching a bonfire burn in front of it. All the color, all the amber hues and warm tones with none of its heat.
+
 In the distance a deer’s eyes reflect the soft lamplight. Its white tail is pointing straight up. It perks its head up like a periscope, instantly and all at once. From its mouth hangs a single strand of frozen grass, another tuft pokes through the heavy snow covering the bottoms of its skinny pale legs. Its ears twitch. A dusting of new snow collects on its back as it stares out into the silence. I can feel the snow mounting on my own head. I shake and it falls off me, cascading below and taking more snow with it to the ground.
+
 In the distance a car groans and sputters. The deer perks up at the noise. Pausing to chew the last strand of grass in its mouth before prancing off further into the night. Little puffs of snow rise where it stood before settling back to the ground silently. 
+
 The car comes closer. I can hear its familiar rumbling more clearly now. The deep treaded tires catch on the gravel below the snow. Its dull headlights come through the branches of the bare trees, casting long, electric beams of bright blue that peak through to the forest behind me. They jump up and down as the car bounces between ruts in the road. It looks like a boat far out to sea rising and falling on crests and troughs in dark, deep water. I shuffle a little backwards as the lights approach. Further under a branch. 
+
 A shrew pops his head up at the base of the tree below. It watches as the light grows over the driveway, rising from the main road below. The headlights of the car are getting brighter with every patter of new snow on the tree branches. I listen as the shrew ducks into a small bush and dives below the surface under the surface of the snow. Behind him a trail of lifted snow shows his movement into the underground before the snow settles and he is gone. The little branches of the bush shake for a moment before stopping. I can still hear the shrew as it titters away, deeper into his hole. 
+
 The snow crunches louder now. The tires with their metal studs tear through the fresh snow, throwing it back up behind the car and into the night glowing red in its wake. The car passes below me. Passed the small pond. The car roars in one final moment of stress as it winds around the last few feet to the crest of the hill where the house sits. It comes to rest in front of the porch. I hear the gears in the car shift down and its weight settles lower, sighing in relief. The engine gives one final hiss as the last plume of smoke rises out of its exhaust pipe. The smoke billows and collects, racing itself into the sky. It disappears like a ghost overhead.
+
 The doors pop open. They decant in their black dresses and jackets and suits and pants. A man has his arm around a woman. In front of them a tall, hunched figure leads the way. Two smaller figures follow closely behind. A tiny, timid body behind them all. Their bodies look solemn and cold. Snow collects on their shoulders. They are molasses pouring slowly out of a jar, spilling onto the perfect snow. Black oil spilling onto the virgin ground. 
+
 Six of them step out of the car. Five of them walk to the front steps burying their boots in the same tracks they left before on their way out. One stays behind. Her small, frail frame looks unsteady in the snow. Her black gown fit her once. Now it hangs off her thin body under a coat that nearly swallows her whole. The black hood protects her from the snowflakes falling a little harder now. Small piles of snow gather around her feet.
+
 The moon is rising out of its slumber now. Its silver light is waking the forest up ever so slightly. A grove of paper birches just beyond the house shines a little brighter. Its torn and tattered bark peeling in long strands that tickle snowflakes as they float down and settle on the ground. The winter stars are starting to twinkle between branches of the trees overhead. They dance as the world turns around them. Somewhere a bear tosses in her sleep. A branch over her den shifts and settles further down under the weight of new snow.
+
 She takes the hood off her head and looks up. Up across the narrow gravel road. Out across the small pond. Underneath the padded snow and thick ice, frozen frogs rest in icy peace. They dream of warm water and tadpoles dancing around their heads. 
+
 Her gaze traces the long sheets of bark rising towards me. Her rising gaze stops, focuses, stares at me now. I do not move. I want to shift myself, but I wait instead. I know where the lamp light reaches. I know I am only just inside its furthest reaches. Its faint orange light grazes me at its fingertips. 
 I can hear her toes shifting in their black boots and wool socks. I see her shiver in place and yet there she stands, looking into the night. Up into the trees at me. I look back.
+
 Her gaze feels warm. A ray of sun poking through the clouds on a mountaintop. For a moment we stand, worlds apart with only a few feet of frosty air between us. A smile creeps across her face.
+
 It’s me Louise. It’s me, I’m right here.
+
 The snow around her boots shifts louder now. I can hear her feet scraping the gravel and salt collected in solid sheets under the soft snow. She turns and shuffles back across the lamp light. Her thin shadow shrinks against the gingerbread brown house as she walks along the path and up the stairs. Wooden planks groan even under her sallow bones. 
+
 The screen door creaks open and echoes across the forest. The wooden door shuts her slender frame away from me. Inside the lights are on behind thick curtains. I can see their shapes moving slightly from room to room. The man and woman, David, and Lily, sit idly on a leather couch. I can smell its worn hide from here. I can hear it squeak under them as he places a hand around her and her head finds his shoulder. Benj’s looming figure hunches over the piano in the corner. He rifles through pages of scores.
+
 The snow is falling a little heavier now. It dampens the forest. The moon is rising higher above the canopies. The ground is a reflective pool of white. 
 Under the tree the shrew pops his head out again and looks up and around at the world. He cares not for the light, nor the sight of pinecones covered in snow and stars twinkling high in the sky. I can hear his pointed nose sniffing the air around him. Sniffing the base of the tree. He follows the nose as it takes him across the edge of the pond. He sprints across the snow in a flash, leaving a tunnel in his path. He stands on his hind legs and sniffs the branches of a bush. When he disappears again into the cold ground again, a small pile of snow covers his tracks. 
-Somewhere a red fox calls far out in the woods. Its high-pitched bark is a chorus against the silent night. A foolish pup looking for a mate. The dense pine branches around me are not enough to dampen even his distant whimpers. 
+
+Somewhere a red fox calls far out in the woods. Its high-pitched bark is a chorus against the silent night. A foolish pup looking for a mate. The dense pine branches around me are not enough to dampen even his distant whimpers.
+
 I can hear them talking inside. It sounds light and happy. A tune of music carries across the empty porch and into the forest. A curtain slides open, and I see Louise’s face more clearly now. Her jacket is off, and I can see the contours of her face, of her neck. Her gray hair is a thin mantle of snow across the soil. Flecks of rich brown still poke through after all these years. 
-Louise looks back out across the water and out into the night. I can see them all more clearly now. On the piano sits a small glass of red liquid in a tall glass. Benj’s crooked fingers delicately touch the ivory keys, and a light tune carries through the window and into the night. On the couch David and Lily sit. A glass of amber is in his hand, the other stroking her blond hair. She’s laughing at something he is whispering in her ear. On the ground young Tom and Pen sit and pass chess pieces across a faded board. I think Pen is winning. The creases of smiles temper her cheeks. 
+
+Louise looks back out across the water and out into the night. I can see them all more clearly now. On the piano sits a small glass of red liquid in a tall glass. Benj’s crooked fingers delicately touch the ivory keys, and a light tune carries through the window and into the night. On the couch David and Lily sit. A glass of amber is in his hand, the other stroking her blond hair. She’s laughing at something he is whispering in her ear. On the ground young Tom and Pen sit and pass chess pieces across a faded board. I think Pen is winning. The creases of smiles temper her aged cheeks. 
+
 The red fox passes into the lamplight. He crouches low to the ground. The strands of his long, winter coat drape across the snow. Brushing the new flakes in faint stringy patterns.
+
 He steps closer and nears the small pond. He is sniffing more ferociously now. He crouches lower to the ground. Snow touches his black nose and falls off in clear drops back to the earth. I can hear him sniffing the base of the small bush, where just a moment ago the shrew had disappeared. His ears rear back in full attention. He digs his sharp claws into the fresh snow. He packs it down further. He plays a fool’s game, too young to know it. But I know it. He doesn’t know how to listen. How to hear what the forest is saying. His shrew is a world away from him in his dark, subnivean world. 
+
 Who taught you that? Who taught you like that?
+
 He perks up, surprised to hear my call. He can’t place it. His ears poke all around him and he whimpers deeply in his throat. He calls in his sharp shriek before running into the forest. I can hear the patter of his footsteps, the chatter of his jaws even when the lamp’s fingers lose its grip on him. 
+
 Louise watches him from the window escape into the darkness again. Lily is up from the couch; she places a hand on Louise’s shoulder and mouths something to her. The two women smile and stare out. They have tears in their eyes. Their smiles betray them. 
+
 I am right here. I always will be. 
