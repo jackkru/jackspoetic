@@ -8,6 +8,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/dark-mode.css">
+    <script>
+        // Prevent flash of incorrect theme - run immediately
+        (function() {
+            try {
+                const theme = localStorage.getItem('theme') || 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+                // Also set a class for immediate styling
+                document.documentElement.classList.add('theme-' + theme);
+            } catch (e) {
+                // Fallback to light theme if localStorage fails
+                document.documentElement.setAttribute('data-theme', 'light');
+                document.documentElement.classList.add('theme-light');
+            }
+        })();
+    </script>
     <style>
         * {
             margin: 0;
@@ -54,6 +69,7 @@
         .nav-links {
             display: flex;
             gap: 2rem;
+            align-items: center;
         }
         
         .nav-links a {
@@ -91,8 +107,8 @@
         
         .header {
             text-align: center;
-            margin-bottom: 3rem;
-            padding: 2rem 0;
+            margin-bottom: 1.5rem;
+            padding: 1rem 0;
         }
         
         .header h1 {
@@ -107,7 +123,7 @@
         .post-meta {
             color: var(--link-hover);
             font-size: 1rem;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             text-align: center;
             font-weight: 500;
         }
@@ -115,11 +131,16 @@
         .post-content {
             background: var(--bg-primary);
             border-radius: 20px;
-            padding: 4rem;
+            padding: 3rem;
             font-size: 1.1rem;
             line-height: 1.8;
             color: var(--text-primary);
             box-shadow: 0 10px 30px var(--shadow-color);
+        }
+        
+        /* Remove excessive spacing from post content */
+        .post-content > *:first-child {
+            margin-top: 0;
         }
         
         .post-content h1, .post-content h2, .post-content h3 {
@@ -133,6 +154,11 @@
             font-size: 2.2rem; 
             border-bottom: 2px solid var(--link-hover);
             padding-bottom: 0.5rem;
+        }
+        
+        /* Hide duplicate title if it's the first element */
+        .post-content > h1:first-child {
+            display: none;
         }
         
         .post-content h2 { 

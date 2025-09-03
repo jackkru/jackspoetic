@@ -6,6 +6,9 @@ import glob
 
 app = Flask(__name__, static_folder='static')
 
+# Enable auto-reload for development
+app.config['TEMPLATES_AUTO_RELOAD'] = True
+
 # Blog posts directory
 POSTS_DIR = 'posts'
 
@@ -48,8 +51,14 @@ def get_posts():
         if post:
             posts.append(post)
     
-    # Sort by date (newest first)
-    posts.sort(key=lambda x: x['date'], reverse=True)
+    # Sort by date (newest first) - convert string dates to datetime objects
+    def parse_date(date_str):
+        try:
+            return datetime.strptime(date_str, '%Y-%m-%d')
+        except (ValueError, TypeError):
+            return datetime.min  # Fallback for invalid dates
+    
+    posts.sort(key=lambda x: parse_date(x['date']), reverse=True)
     return posts
 
 def get_post(slug):
@@ -101,4 +110,4 @@ def parse_post(filename):
         return None
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000, debug=True)
