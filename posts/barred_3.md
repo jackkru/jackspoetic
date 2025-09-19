@@ -82,3 +82,5 @@ I hear piano music far away. I hear the soft rushing of the busy stream, carryin
 
 A dipper pours dazzling, sparkling light across the indigo sky. 
 
+---
+*This is chapter three in a book being written by Sam Holden. Thanks for reading! When a new chapter is up, we will link it here*

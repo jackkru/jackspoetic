@@ -77,5 +77,9 @@ Dad unlocked the front door and it swung open. The wooden floors creaked under u
 
 Dad picked it up and placed it on a small shelf in the entryway.
 
-“So she’ll always be with us,” he said, and placed an arm around me. 
+"So she'll always be with us," he said, and placed an arm around me. 
 
+---
+*This is chapter two in a book being written by Sam Holden. Thanks for reading! To continue, click below*
+
+**Next Chapter:** [Barred 3 →](/blog/barred_3)

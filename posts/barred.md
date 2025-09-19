@@ -83,3 +83,8 @@ He perks up, surprised to hear my call. He can’t place it. His ears poke all a
 Louise watches him from the window escape into the darkness again. Lily is up from the couch; she places a hand on Louise’s shoulder and mouths something to her. The two women smile and stare out. They have tears in their eyes. Their smiles betray them. 
 
 I am right here. I always will be. 
+
+---
+*This is chapter one in a book being written by Sam Holden. Thanks for reading! To continue, click below*
+
+**Next Chapter:** [Barred 2: North →](/blog/barred_2_north)
