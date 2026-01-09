@@ -95,7 +95,7 @@ def parse_post(filename):
         slug = os.path.splitext(os.path.basename(filename))[0]
         
         # Convert markdown to HTML
-        html_content = markdown.markdown(markdown_content, extensions=['fenced_code', 'tables', 'codehilite'])
+        html_content = markdown.markdown(markdown_content, extensions=['fenced_code', 'tables', 'codehilite', 'footnotes'])
         
         return {
             'title': metadata.get('title', 'Untitled'),

@@ -1,0 +1,24 @@
+---
+title: Juice
+date: 2025-10-03
+author: Jack
+excerpt: Friday morning thoughts
+---
+
+I’m feeling the pressure a bit. It’s been a while since I’ve posted anything, and while I know there’s no one refreshing this website constantly to find out the latest update, now that I’ve shared it with a fair number of friends and family I do feel some sense of responsibility to continue adding to it. I also feel some shame that the most recent two posts that sit at the top of the feed are these incredibly elitist 1%er reviews of this absurdly expensive experience. 
+
+But for a couple of reasons, time has been tight. Work has picked up, and I’m finally feeling the “stretched-thin” effect that I expected to come sooner with the shrinking of my team. Maria’s family has had an absolutely brutal week with multiple health issues. 
+
+And on top of all that, jackspoetic has gotten expensive! My free tier period with AWS has ended, and my monthly costs jumped from 50 cents to ~12 bucks. So I’ve got to figure out a solution for that. But no time for that just yet, for now there’s only enough time for this casual update. It’s important to remember that to some extent, that’s the whole point. Every post doesn’t need to be an evaluation or a poem, it’s ok for a personal blog to be just that, a blog, a place for me to share what’s going on in my life, even if it’s not particularly notable.
+
+I’ve spent a good chunk of this week in the hospital. Hadn’t shed a tear the whole time. And as I left to return back to our apartment yesterday, and exited the metro, there was a commotion near the base of an escalator. People shouting, a crowd gathered, everyone craning their necks. I continued on, but as I ascended the stairs I turned and saw that an old woman had seemingly tumbled out of her wheelchair at the bottom of the escalator. Her face was bloody and she didn’t seem responsive. And maybe that would have done it on its own, or maybe the previous days in the hospital were necessary to build it up, but either way that finally broke me. The fragility of life, the jarring image, the red blood contrasted by the emptiness in her expression, I left the metro station in tears. 
+
+There are good things going on in my life as well. Last Saturday we had the awards ceremony for my football team, and I shockingly came away with the “Player’s Player” trophy, meaning my teammates had voted me as their player of the season. Playing football is still my absolute favorite thing, and being a part of a team (and especially a team that appreciates you) is an amazing thing. We start our next season tomorrow.
+
+I’m visiting the U.S. later this month. I’m so looking forward to spending time with my family. I’ve been happy to be a positive force in Maria’s family throughout difficult times this summer, but there are definitely times I’ve felt conflicted. I am glad I can be there through their health issues, but I feel guilty that I haven’t been there in the same way while members of my own family have gone through health issues. 
+
+Lastly, the title of this post, juice. I read this book a while back where this character from a small town moved for the first time to a city. And he said that in the city people were colder out of necessity, they had to “preserve their juice.” In his home town there was only so much going on, which meant that you could “lend enough juice” to say hi to the neighbors, stop and chat with the old lady in line at the hardware store, etc. In the city, there was too much going on. If you used your juice on everything, you wouldn’t have enough to get through the day. I could argue that the same is true for tuning into the news. You can care about some things some of the time, but if you spent your juice on everything all of the time, you wouldn’t have enough left to get through the day. So maybe for some stretches you tune in deeply to Palestine, or ICE raids, or South Sudan, but to empathize with it all, all of the time, you’d be left empty. But the last couple days have also reminded me that juice is relative. By all accounts, Maria should have spent all her juice at the hospital the last few days. Being strong for her dad, for her grandpa, for her mom, for her grandma, she should have been left on empty. But somehow, each night, she found an extra reserve to lend some empathy, some attention, and some care to the flotilla. Tuning into the livestreams, sharing with friends, draining what little she had left in her few minutes before sleep. And that’s a valuable reminder. Juice is relative and juice is precious. You do need to be careful with it, but we all could probably find a little more in the tank. 
+
+---
+
+*Thanks for reading! I'll have thoughts to come on embeddings and the NBA.*
