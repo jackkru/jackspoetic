@@ -82,7 +82,7 @@ body {
     cursor: pointer;
     padding: 0.5rem;
     border-radius: 50%;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     color: var(--text-nav);
@@ -91,6 +91,7 @@ body {
     line-height: 1;
     height: 2.5rem;
     width: 2.5rem;
+    position: relative;
 }
 
 .theme-toggle:hover {
@@ -102,17 +103,23 @@ body {
     width: 1.2rem;
     height: 1.2rem;
     fill: currentColor;
+    display: block;
+    color: var(--text-nav);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Hide/show icons based on theme */
 [data-theme="light"] .moon-icon,
 [data-theme="dark"] .sun-icon {
-    display: none;
+    display: none !important;
 }
 
 [data-theme="light"] .sun-icon,
 [data-theme="dark"] .moon-icon {
-    display: block;
+    display: block !important;
 }
 
 /* Ensure perfect alignment */
@@ -120,15 +127,14 @@ body {
     align-items: center;
 }
 
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 .nav-links a {
     display: flex;
     align-items: center;
     height: 2.5rem;
-}
-
-.theme-toggle svg {
-    width: 1.2rem;
-    height: 1.2rem;
-    fill: currentColor;
-    display: block;
 } 

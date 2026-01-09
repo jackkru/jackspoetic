@@ -35,7 +35,12 @@ def post(slug):
 # But we'll keep explicit routes for better control and debugging
 @app.route('/static/<path:filename>')
 def static_files(filename):
-    return send_from_directory(os.path.join(BASE_DIR, 'static'), filename)
+    try:
+        return send_from_directory(os.path.join(BASE_DIR, 'static'), filename)
+    except Exception as e:
+        # Log error for debugging
+        print(f"Error serving static file {filename}: {e}")
+        abort(404)
 
 def get_posts():
     """Get all blog posts sorted by date"""
