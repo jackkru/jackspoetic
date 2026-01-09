@@ -4,13 +4,16 @@ import markdown
 from datetime import datetime
 import glob
 
-app = Flask(__name__, static_folder='static')
+# Get the base directory (where app.py is located)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+app = Flask(__name__, static_folder=os.path.join(BASE_DIR, 'static'))
 
 # Enable auto-reload for development
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 # Blog posts directory
-POSTS_DIR = 'posts'
+POSTS_DIR = os.path.join(BASE_DIR, 'posts')
 
 @app.route("/")
 def home():
@@ -28,17 +31,11 @@ def post(slug):
         abort(404)
     return render_template("post.html", post=post)
 
+# Flask automatically serves static files from static_folder at /static/
+# But we'll keep explicit routes for better control and debugging
 @app.route('/static/<path:filename>')
 def static_files(filename):
-    return send_from_directory('static', filename)
-
-@app.route('/static/css/<path:filename>')
-def css_files(filename):
-    return send_from_directory('static/css', filename)
-
-@app.route('/static/js/<path:filename>')
-def js_files(filename):
-    return send_from_directory('static/js', filename)
+    return send_from_directory(os.path.join(BASE_DIR, 'static'), filename)
 
 def get_posts():
     """Get all blog posts sorted by date"""
