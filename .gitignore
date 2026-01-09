@@ -4,15 +4,12 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
 
-# Flask
-instance/
-.webassets-cache
+# Vercel
+.vercel
 
 # Logs
 *.log
@@ -28,9 +25,5 @@ Thumbs.db
 *.swp
 *.swo
 
-# Docker
-.dockerignore
-
-# Temporary files
-*.tmp
-*.temp 
+# Don't ignore public folder - it's needed for Vercel static files
+!public/
