@@ -2,7 +2,7 @@
 
 ---
 title: Lean Into Your Hobbies (or We’re All Screwed But I Don’t Know In Which Way Or What To Do About It)
-date: 2025-01-14
+date: 2026-01-14
 author: Jack
 excerpt: 
 ---
