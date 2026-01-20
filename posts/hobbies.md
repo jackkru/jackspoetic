@@ -9,7 +9,7 @@ excerpt: or We’re All Screwed But I Don’t Know In Which Way Or What To Do Ab
 
 # Lean Into Your Hobbies (or We're All Screwed But I Don't Know In Which Way Or What To Do About It)
 
-I'll first note that I recognize my recent stretch of AI articles may have been somewhat tricky to consume. This article will note be technical and we be the last about AI for a bit. 
+I'll first note that I recognize my recent stretch of AI articles may have been somewhat tricky to consume. This article will not be technical and will be the last about AI for a bit. 
 
 I saw this picture posted on LinkedIn the other day and I think it's somewhat poignant as a starting point for explaining how I feel about the current moment in the rise of AI. What's pictured is matrix multiplication, basically what I've slowly explained over the last four pieces. Don't worry about understanding it if you don't want to, I know the last several pieces have been very technically dense. This won't be. All you need to know is that it's a way of representing the neural network architecture that I've explained already.
 
