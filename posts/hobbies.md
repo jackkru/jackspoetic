@@ -1,10 +1,10 @@
 
 
 ---
-title: Lean Into Your Hobbies (or We’re All Screwed But I Don’t Know In Which Way Or What To Do About It)
+title: Lean Into Your Hobbies
 date: 2026-01-14
 author: Jack
-excerpt: 
+excerpt: or We’re All Screwed But I Don’t Know In Which Way Or What To Do About It
 ---
 
 # Lean Into Your Hobbies (or We're All Screwed But I Don't Know In Which Way Or What To Do About It)
