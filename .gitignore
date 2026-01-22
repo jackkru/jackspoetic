@@ -27,3 +27,4 @@ Thumbs.db
 
 # Don't ignore public folder - it's needed for Vercel static files
 !public/
+.env*.local

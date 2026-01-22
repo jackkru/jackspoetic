@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/dark-mode.css">
+    <link rel="stylesheet" href="/static/css/subscription.css">
     <script>
         // Prevent flash of incorrect theme - run immediately
         (function() {
@@ -252,7 +253,17 @@
             <a href="/blog" class="cta-button">Explore My Writing</a>
         </div>
     </section>
-    
+
+    <div class="subscription-form-container">
+        <h3>Subscribe for Updates</h3>
+        <p>Get notified when I publish new writing. No spam, just occasional updates.</p>
+        <form class="subscription-form">
+            <input type="email" name="email" placeholder="your@email.com" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <div class="subscription-message"></div>
+    </div>
+
     <footer class="footer">
         <p class="footer-text">
             © 2024 jackspoetic. Last updated: <span id="timestamp"></span>
@@ -260,6 +271,7 @@
     </footer>
     
     <script src="/static/js/dark-mode.js"></script>
+    <script src="/static/js/subscription.js"></script>
     <script>
         document.getElementById('timestamp').textContent = new Date().toLocaleString();
     </script>
