@@ -1,11 +1,11 @@
 ---
-title: A Note on Birthdays and Holidays spent abroad
+title: Birthdays and Holidays Spent Abroad
 date: 2026-01-28
 author: Jack
 excerpt: I spent my 29th birthday here in Barcelona
 ---
 
-# A Note on Birthdays and Holidays spent abroad
+# Birthdays and Holidays Spent Abroad
 
 I wrote most of this a month or so back, and polished it off just now. 
 
