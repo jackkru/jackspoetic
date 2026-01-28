@@ -4,6 +4,8 @@ import markdown
 from datetime import datetime
 import glob
 import requests
+import pg8000.native
+from urllib.parse import urlparse
 
 # Get the base directory (where app.py is located)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -70,6 +72,114 @@ def subscribe():
     except Exception as e:
         print(f"Subscription error: {e}")
         return jsonify({'success': False, 'message': 'An error occurred. Please try again later.'}), 500
+
+def get_db():
+    """Get database connection"""
+    database_url = os.environ.get('DATABASE_URL')
+    if not database_url:
+        return None
+    parsed = urlparse(database_url)
+    return pg8000.native.Connection(
+        user=parsed.username,
+        password=parsed.password,
+        host=parsed.hostname,
+        port=parsed.port or 5432,
+        database=parsed.path[1:],
+        ssl_context=True
+    )
+
+def init_comments_table():
+    """Create comments table if it doesn't exist"""
+    conn = get_db()
+    if not conn:
+        return
+    try:
+        conn.run('''
+            CREATE TABLE IF NOT EXISTS comments (
+                id SERIAL PRIMARY KEY,
+                post_slug VARCHAR(255) NOT NULL,
+                author_name VARCHAR(100) NOT NULL,
+                content TEXT NOT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        ''')
+        conn.run('CREATE INDEX IF NOT EXISTS idx_comments_slug ON comments(post_slug)')
+    finally:
+        conn.close()
+
+# Initialize comments table on startup
+try:
+    init_comments_table()
+except Exception as e:
+    print(f"Could not initialize comments table: {e}")
+
+@app.route("/api/comments/<slug>", methods=["GET"])
+def get_comments(slug):
+    """Get all comments for a post"""
+    conn = get_db()
+    if not conn:
+        return jsonify({'comments': []})
+    try:
+        rows = conn.run(
+            'SELECT author_name, content, created_at FROM comments WHERE post_slug = :slug ORDER BY created_at ASC',
+            slug=slug
+        )
+        return jsonify({'comments': [
+            {
+                'author': row[0],
+                'content': row[1],
+                'date': row[2].strftime('%B %d, %Y at %I:%M %p')
+            } for row in rows
+        ]})
+    finally:
+        conn.close()
+
+@app.route("/api/comments", methods=["POST"])
+def post_comment():
+    """Post a new comment"""
+    try:
+        data = request.get_json()
+        slug = data.get('slug', '').strip()
+        name = data.get('name', '').strip()
+        content = data.get('content', '').strip()
+        honeypot = data.get('website', '')  # Honeypot field - should be empty
+
+        if honeypot:
+            # Bot detected
+            return jsonify({'success': True, 'message': 'Comment posted!'})
+
+        if not slug or not name or not content:
+            return jsonify({'success': False, 'message': 'Name and comment are required'}), 400
+
+        if len(name) > 100:
+            return jsonify({'success': False, 'message': 'Name is too long'}), 400
+
+        if len(content) > 5000:
+            return jsonify({'success': False, 'message': 'Comment is too long'}), 400
+
+        conn = get_db()
+        if not conn:
+            return jsonify({'success': False, 'message': 'Comments not available'}), 500
+
+        try:
+            rows = conn.run(
+                'INSERT INTO comments (post_slug, author_name, content) VALUES (:slug, :name, :content) RETURNING created_at',
+                slug=slug, name=name, content=content
+            )
+            created_at = rows[0][0]
+            return jsonify({
+                'success': True,
+                'comment': {
+                    'author': name,
+                    'content': content,
+                    'date': created_at.strftime('%B %d, %Y at %I:%M %p')
+                }
+            })
+        finally:
+            conn.close()
+    except Exception as e:
+        print(f"Comment error: {e}")
+        return jsonify({'success': False, 'message': 'Could not post comment'}), 500
 
 # Flask automatically serves static files from static_folder at /static/
 # But we'll keep explicit routes for better control and debugging
