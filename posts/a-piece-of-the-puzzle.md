@@ -2,7 +2,7 @@
 title: A Piece of the Puzzle
 date: 2026-02-02
 author: Jack
-excerpt: It's daunting to to try to fix the whole puzzle, and tangible to beautify the parts around you.
+excerpt: It's daunting to to try to fix the whole puzzle, yet tangible to beautify the parts around you.
 ---
 
 # A Piece of the Puzzle
@@ -18,4 +18,4 @@ The post I saw that resonated with me the most was one that, in different words,
 [^1]: One more point on this. This murder is such strong evidence that voting matters. I have 0 patience for bullshit leftists that don't vote, and there are still way too many of them. I know people that wouldn't vote for Kamala because Kamala was too far right for them. I'm no fan of Kamala, but I think now it is painfully obvious how much better she would have been. Concretely, Alex Pretti would be alive right now if the election had gone the other way. Vote, even if there isn't a perfect candidate. There's never a perfect candidate and your vote still matters.
 
 ---
-*Thanks for reading! I wanted to point out that I've added a comments section. If you have any thoughts on this post or others, I would love to hear them.*
+*Thanks for reading! I wanted to point out that I've added a comments section here below each post if you scroll down. If you have any thoughts on this post or others, I would love to hear them.*
