@@ -1,29 +1,26 @@
 # Jack's Poetic Blog
 
-I wanted to experiment with web development and wanted to force myself to write more. This project combines those two. 
+I wanted to experiment with web development and wanted to force myself to write more. This project combines those two.
 
 ## What This Is
 
-This is my personal website - a simple blog built with Flask where I can:
-- Write and share blog posts
-- Upload and display images
-- Share my poetry and creative work
-- Document interesting experiences and thoughts
+This is my personal website - a simple blog built with Flask where I write about things that interest me: personal experiences, poetry, chess, AI, food, and more.
 
 ## How It's Built
 
-I bought the domain name via route 53 in AWS.
-I created an ec2 instance. 
-I wrote a flask app to run on that ec2 instance. 
-I connected the ec2 instance to the domain name.
+- **Framework**: Flask (Python), served as a serverless function via Vercel
+- **Hosting**: Vercel (free tier) with auto-deployments from GitHub
+- **Domain**: jackspoetic.com
+- **Comments**: Custom comment system backed by Neon Postgres
+- **Posts**: Markdown files in the `posts/` directory
 
 ## Features
 
-- **Dark Mode**: Toggle between light and dark themes with a button in the navigation
-- **Responsive Design**: Works on desktop and mobile devices
-- **Blog Posts**: Markdown support with syntax highlighting
-- **Image Support**: Upload and display images in posts
-- **Theme Persistence**: Your theme preference is saved in your browser
+- **Dark Mode**: Toggle between light and dark themes
+- **Responsive Design**: Works on desktop and mobile
+- **Markdown Posts**: Full markdown support with syntax highlighting and footnotes
+- **Comments**: Readers can leave comments on each post
+- **Theme Persistence**: Theme preference saved in the browser
 
 ## About Me
 
@@ -31,4 +28,4 @@ I'm Jack, and this is where I write about things that interest me - from chess a
 
 ---
 
-*Built with Flask and hosted on my own server via AWS* 
+*Built with Flask and hosted on Vercel*
