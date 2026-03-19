@@ -35,4 +35,4 @@ I just finished competing in the Lliga Catalana d'Escacs. The Catalan Chess Leag
 
 ---
 
-*Thanks for reading!*
+*Thanks for reading! One point I forgot to make is the title of this piece is stolen from a podcast called Plain English. My interest level in the podcast has faded, but I can't just be stealing ideas without giving credit.*
